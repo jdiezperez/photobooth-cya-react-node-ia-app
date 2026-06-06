@@ -89,10 +89,18 @@ npm run preview
 
 ## Screenshots
 
-![Select Shop](_images/cya_01.png)
+Select Shop
 
-![Home](_images/cya_02.png)
+<img src="_images/cya_01.png" alt="Select Shop" width="400">
 
-![Select Background](_images/cya_03.png)
+Home
 
-![Take Photo](_images/cya_04.png)
+<img src="_images/cya_02.png" alt="Home" width="400">
+
+Select Background
+
+<img src="_images/cya_03.png" alt="Select Background" width="400">
+
+Take Photo
+
+<img src="_images/cya_04.png" alt="Take Photo" width="400">
