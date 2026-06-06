@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'CyAFont';
+  src: url('./assets/fonts/CASerif-SemiLight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-60px);
+  }
+}
+
+body {
+  font-family: 'CyAFont', sans-serif;
+  background: #111;
+}

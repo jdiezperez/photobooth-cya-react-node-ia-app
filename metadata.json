@@ -1,0 +1,7 @@
+{
+  "name": "Photo Puzzle Booth AI",
+  "description": "A fun application that spins a wheel to select a background, takes your photo, uses AI to place you in the scene, and then turns the final image into a timed puzzle game.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
