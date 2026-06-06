@@ -86,3 +86,13 @@ npm run preview
 - `src/images/` & `src/assets/`: Static image assets and logos.
 - `src/constants.js`: Application constants, game states, and localized string definitions.
 - `src/utils.js`: Helper functions such as adding the logo to the final canvas.
+
+## Screenshots
+
+![Select Shop](_images/cya_01.png)
+
+![Home](_images/cya_02.png)
+
+![Select Background](_images/cya_03.png)
+
+![Take Photo](_images/cya_04.png)
