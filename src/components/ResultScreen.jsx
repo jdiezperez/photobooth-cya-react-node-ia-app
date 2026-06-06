@@ -6,8 +6,8 @@ import { STRINGS } from '../constants.js';
 // que está configurado para ser públicamente escribible. Esto es INSEGURO
 // para una aplicación del mundo real, pero se implementa según la solicitud del usuario.
 const uploadImageToGCS = async (dataUrl, lang, code) => {
-    // Un nombre de bucket ficticio. En un escenario real, esto se configuraría de forma segura.
-    const BUCKET_NAME = 'fotos-puzzle-cya-ai'; 
+    // Nombre del bucket de Google Cloud Storage configurado a través de variables de entorno
+    const BUCKET_NAME = import.meta.env.VITE_GCS_BUCKET_NAME || 'fotos-puzzle-cya-ai';
     const fileName = `cya-${code}-${lang}-${Date.now()}.png`;
     
     // Convertir Data URL a Blob para la subida

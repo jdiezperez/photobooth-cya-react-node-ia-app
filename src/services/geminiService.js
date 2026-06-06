@@ -4,10 +4,10 @@ export const generateImageWithGemini = async (
   userImageBase64,
   prompt
 ) => {
-  const API_KEY = "AIzaSyAPS-x4IyP2Pu7ZblszAvZAitUh--ow2A4"; 
+  const API_KEY = import.meta.env.VITE_GEMINI_API_KEY; 
   
-  if (!API_KEY || API_KEY === "TU_API_KEY_AQUI") {
-    console.error("API_KEY no configurada en services/geminiService.js");
+  if (!API_KEY) {
+    console.error("API_KEY no configurada en las variables de entorno");
     throw new Error("La clave de API no está configurada. La demonstración no puede continuar.");
   }
   const ai = new GoogleGenAI({ apiKey: API_KEY });

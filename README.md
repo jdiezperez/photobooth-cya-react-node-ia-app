@@ -39,8 +39,16 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    npm install
    ```
 
-3. Set up environment variables (if required for the Google GenAI API integration).
-
+3. Set up environment variables for the Google GenAI API integration and Cloud Storage:
+   - Copy the `.env.example` file to a new file named `.env`:
+     ```bash
+     cp .env.example .env
+     ```
+   - Open `.env` and replace the placeholder values with your actual API key and bucket name:
+     ```env
+     VITE_GEMINI_API_KEY=your_actual_api_key_here
+     VITE_GCS_BUCKET_NAME=your_bucket_name_here
+     ```
 ### Running Locally
 
 To start the development server, run:
